@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-wqdy",
+  "version": "0.0.1",
+  "description": "eslint config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+		"index.js",
+		"configs"
+	],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuilongjin/eslint-config-wqdy.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "c",
+  "license": "MIT",
+  "homepage": "https://github.com/cuilongjin/eslint-config-wqdy#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/eslint-parser": "^7.15.8",
+    "eslint": "7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-unicorn": "^37.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "7.32.0"
+  }
+}

@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-$ npm install --save-dev @wqdy/stylelint-config
+$ npm install --save-dev stylelint-config-wqdy
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ add this to your .stylelintrc file:
 
 ```
 {
-  "extends": "@wqdy/stylelint-config"
+  "extends": "stylelint-config-wqdy"
 }
 ```
 

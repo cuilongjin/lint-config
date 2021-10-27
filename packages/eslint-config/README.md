@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-$ npm install --save-dev @wqdy/eslint-config
+$ npm install --save-dev eslint-config-wqdy
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ add this to your .eslintrc file:
 
 ```
 {
-  "extends": "@wqdy/eslint-config"
+  "extends": "wqdy"
 }
 ```
 

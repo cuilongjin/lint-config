@@ -1,5 +1,5 @@
 {
-  "name": "@wqdy/stylelint-config",
+  "name": "stylelint-config-wqdy",
   "version": "0.0.1",
   "description": "stylelint config",
   "main": "index.js",

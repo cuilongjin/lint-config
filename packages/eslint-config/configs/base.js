@@ -19,6 +19,7 @@ module.exports = {
     'no-unreachable': 1,
     'no-unused-vars': 1,
     'no-debugger': 1,
-    'unicorn/prefer-module': 0
+    'unicorn/prefer-module': 0,
+    'unicorn/no-abusive-eslint-disable': 0
   }
 }

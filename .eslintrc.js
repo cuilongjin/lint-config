@@ -1,3 +1,3 @@
 module.exports = {
-  ...require('@wqdy/eslint-config/configs/base.js')
+  ...require('./packages/eslint-config/configs/base.js')
 }

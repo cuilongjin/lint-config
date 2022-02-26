@@ -1,11 +1,8 @@
 {
   "name": "eslint-config-wqdy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "eslint config",
-  "files": [
-		"index.js",
-		"configs"
-	],
+  "main": "index.js",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -25,7 +22,8 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-unicorn": "^37.0.1"
+    "eslint-plugin-unicorn": "^37.0.1",
+    "eslint-plugin-vue": "^8.5.0"
   },
   "peerDependencies": {
     "eslint": "7.32.0"

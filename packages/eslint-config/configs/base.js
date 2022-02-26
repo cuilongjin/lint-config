@@ -8,11 +8,12 @@ module.exports = {
     'standard',
     'plugin:unicorn/recommended'
   ],
-  parser: '@babel/eslint-parser',
+  // parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    requireConfigFile: false
+    requireConfigFile: false,
+    parser: '@babel/eslint-parser'
   },
   rules: {
     'arrow-parens': [2, 'as-needed'],
@@ -20,6 +21,7 @@ module.exports = {
     'no-unused-vars': 1,
     'no-debugger': 1,
     'unicorn/prefer-module': 0,
-    'unicorn/no-abusive-eslint-disable': 0
+    'unicorn/no-abusive-eslint-disable': 0,
+    'unicorn/require-number-to-fixed-digits-argument': 0
   }
 }

@@ -12,8 +12,8 @@
   ],
   "author": "c",
   "license": "MIT",
-  "homepage": "https://github.com/cuilongjin/lint-config#readme",
-  "repository": "https://github.com/cuilongjin/lint-config.git",
+  "homepage": "https://github.com/wqdygkd/lint-config#readme",
+  "repository": "https://github.com/wqdygkd/lint-config.git",
   "dependencies": {
     "@babel/core": "^7.15.8",
     "@babel/eslint-parser": "^7.15.8",

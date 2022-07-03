@@ -1,8 +1,12 @@
 {
   "name": "eslint-config-wqdy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "eslint config",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./configs/vue2-js": "./configs/vue2-js.js"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

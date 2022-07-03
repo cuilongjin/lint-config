@@ -1,7 +1,5 @@
 module.exports = {
-  ...require('./base.js'),
   env: {
-    ...require('./base.js').env,
     browser: true
   },
   extends: [
@@ -11,8 +9,18 @@ module.exports = {
   plugins: [
     'vue'
   ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    requireConfigFile: false,
+    parser: '@babel/eslint-parser'
+  },
   rules: {
-    ...require('./base.js').rules,
+    'arrow-parens': [2, 'as-needed'],
+    'no-unreachable': 1,
+    'no-unused-vars': 1,
+    'no-debugger': 1,
+    'vue/multi-word-component-names': 0,
     'vue/max-attributes-per-line': ['error', {
       singleline: {
         max: 3
@@ -21,14 +29,5 @@ module.exports = {
         max: 1
       }
     }]
-  },
-  overrides: [
-    {
-      files: ['**.js'],
-      extends: [
-        'standard',
-        'plugin:unicorn/recommended'
-      ]
-    }
-  ]
+  }
 }

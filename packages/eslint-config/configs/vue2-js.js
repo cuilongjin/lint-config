@@ -18,7 +18,16 @@ module.exports = {
   rules: {
     'arrow-parens': [2, 'as-needed'],
     'no-unreachable': 1,
-    'no-unused-vars': 1,
+
+    // no-unused-vars 忽略下划线校验
+    'no-unused-vars': [
+      'warn',
+      {
+        argsIgnorePattern: '^_$',
+        varsIgnorePattern: '^_$',
+        caughtErrorsIgnorePattern: '^_$'
+      }
+    ],
     'no-debugger': 1,
     'vue/multi-word-component-names': 0,
     'vue/max-attributes-per-line': ['error', {

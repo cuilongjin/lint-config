@@ -1,9 +1,9 @@
-# eslint-config
+# eslint-config-vue2
 
 ## Install
 
 ```bash
-$ npm install --save-dev @wqdy/eslint-config
+$ npm install --save-dev @wqdy/eslint-config-vue2
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ $ npm install --save-dev @wqdy/eslint-config
 add this to your eslintrc.js file:
 
 ```js
-extends: '@wqdy/eslint-config'
+extends: '@wqdy/eslint-config-vue2'
 ```
 
 ## License

@@ -1,7 +1,6 @@
 {
   "private": true,
-  "workspaces": [
-    "packages/eslint-config",
-    "packages/stylelint-config"
-  ]
+  "scripts": {
+    "release": "pnpm publish -r"
+  }
 }

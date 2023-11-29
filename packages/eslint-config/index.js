@@ -31,6 +31,7 @@ module.exports = {
     'no-debugger': 1,
     'unicorn/prefer-module': 0,
     'unicorn/no-abusive-eslint-disable': 0,
-    'unicorn/require-number-to-fixed-digits-argument': 0
+    'unicorn/require-number-to-fixed-digits-argument': 0,
+    complexity: ['error', 20]
   }
 }

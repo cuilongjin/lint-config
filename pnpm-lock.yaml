@@ -3,7 +3,10 @@ lockfileVersion: 5.4
 importers:
 
   .:
-    specifiers: {}
+    specifiers:
+      '@wqdy/eslint-config': workspace:^0.0.1
+    dependencies:
+      '@wqdy/eslint-config': link:packages/eslint-config
 
   packages/eslint-config:
     specifiers:
@@ -54,6 +57,9 @@ importers:
     dependencies:
       stylelint: 14.16.1
       stylelint-config-standard: 23.0.0_stylelint@14.16.1
+
+  packages/test:
+    specifiers: {}
 
 packages:
 

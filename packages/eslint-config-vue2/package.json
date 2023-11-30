@@ -1,6 +1,6 @@
 {
   "name": "@wqdy/eslint-config-vue2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "eslint config for vue2",
   "scripts": {
     "clean": "pnpx rimraf node_modules"

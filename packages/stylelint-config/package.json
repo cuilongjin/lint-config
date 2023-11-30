@@ -2,6 +2,9 @@
   "name": "@wqdy/stylelint-config",
   "version": "0.0.1",
   "description": "stylelint config",
+  "scripts": {
+    "clean": "pnpx rimraf node_modules"
+  },
   "main": "index.js",
   "publishConfig": {
     "access": "public",

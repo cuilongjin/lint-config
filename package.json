@@ -1,7 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "release": "pnpm publish -r"
+    "release": "pnpm publish -r",
+    "clean": "pnpx rimraf node_modules",
+    "clean:all": "pnpx rimraf node_modules && pnpm run -r --parallel clean"
   },
   "volta": {
     "node": "20.10.0"

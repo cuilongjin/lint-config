@@ -1,7 +1,10 @@
 {
   "name": "@wqdy/eslint-config-vue2",
   "version": "0.0.1",
-  "description": "eslint config",
+  "description": "eslint config for vue2",
+  "scripts": {
+    "clean": "pnpx rimraf node_modules"
+  },
   "main": "index.js",
   "exports": {
     ".": "./index.js"

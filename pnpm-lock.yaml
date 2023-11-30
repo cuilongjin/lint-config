@@ -58,9 +58,6 @@ importers:
       stylelint: 14.16.1
       stylelint-config-standard: 23.0.0_stylelint@14.16.1
 
-  packages/test:
-    specifiers: {}
-
 packages:
 
   /@aashutoshrathi/word-wrap/1.2.6:

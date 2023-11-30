@@ -24,12 +24,12 @@
   "homepage": "https://github.com/wqdygkd/lint-config#readme",
   "repository": "https://github.com/wqdygkd/lint-config.git",
   "dependencies": {
-    "@babel/core": "^7.22.19",
-    "@babel/eslint-parser": "^7.22.15",
-    "eslint": "^8.49.0",
+    "@babel/core": "^7.23.5",
+    "@babel/eslint-parser": "^7.23.3",
+    "eslint": "^8.54.0",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-unicorn": "^48.0.1"
   },
